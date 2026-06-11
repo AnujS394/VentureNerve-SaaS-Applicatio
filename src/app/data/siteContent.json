@@ -1,0 +1,104 @@
+[
+  {
+    "path": "/aiagents",
+    "title": "Agentic AI Executive Team",
+    "summary": ",\n  competitive: ,\n  fundraising: ,\n};\n\nexport function AIAgents() {\n  const [openAgent, setOpenAgent] = useState(null);\n\n  return (\n    \n      {/* Header */}\n      \n        Agentic AI Executive Team\n        Your autonomous strategic advisors working 24/7",
+    "source": "pages\\AIAgents.tsx"
+  },
+  {
+    "path": "/aiboard-room",
+    "title": "VentureNerve AI Board Room",
+    "summary": "Strategic Intelligence Report",
+    "source": "pages\\AIBoardRoom.tsx"
+  },
+  {
+    "path": "/aicfodashboard",
+    "title": "AI CFO Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\AICFODashboard.tsx"
+  },
+  {
+    "path": "/competitor-intelligence",
+    "title": "Competitive Intelligence",
+    "summary": "Real-time tracking of competitive landscape",
+    "source": "pages\\CompetitorIntelligence.tsx"
+  },
+  {
+    "path": "/",
+    "title": "Strategic Command Center",
+    "summary": "AI-powered insights for your startup",
+    "source": "pages\\Dashboard.tsx"
+  },
+  {
+    "path": "/dashboards/cfodashboard",
+    "title": "AI CFO Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\dashboards\\CFODashboard.tsx"
+  },
+  {
+    "path": "/dashboards/competitive-dashboard",
+    "title": "AI Competitive Intel Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\dashboards\\CompetitiveDashboard.tsx"
+  },
+  {
+    "path": "/dashboards/fundraising-dashboard",
+    "title": "AI Fundraising Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\dashboards\\FundraisingDashboard.tsx"
+  },
+  {
+    "path": "/dashboards/growth-dashboard",
+    "title": "AI Growth Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\dashboards\\GrowthDashboard.tsx"
+  },
+  {
+    "path": "/dashboards/product-dashboard",
+    "title": "AI Product Agent",
+    "summary": "AI Product Agent\n            \n              \n              Live · NPS +67 · 12,450 MAU\n            \n          \n        \n        \n           { setRefreshing(true); setTimeout(() => { setRefreshing(false); toast.success(\"Product data refreshed\"); }, 1400); }}\n            className=\"flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100/60 dark:bg-slate-800/60 border border-slate-200/40 dark:border-slate-700/40 text-sm font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-200/60 dark:hover:bg-slate-700/60 transition-colors\">\n            \n            Refresh\n          \n           {\n              const rows = [\n                [\"Feature\", \"Adoption\", \"Users\"],\n                ...topRequests.map((req) => [req.feature, req.priority, req.votes]),\n              ];\n                const ok = downloadTextFile(\"product-agent-report.csv\", formatCsv(rows), \"text/csv;charset=utf-8\");\n                if (ok) toast.success(\"Product report downloaded\");\n                else toast.error(\"Failed to download Product report. Check console for details.\");\n            }}\n            type=\"button\"\n            className=\"flex items-center gap-2 px-4 py-2 rounded-xl bg-pink-600 hover:bg-pink-700 text-white text-sm font-medium transition-colors shadow-lg shadow-pink-500/20\">\n            \n            Export Report\n          \n        \n      \n\n      {/* KPI Tiles */}\n      \n        {[\n          { label: \"Monthly Active Users\", value: \"12,450\", change: \"+7.3% vs last mo\", icon: Users },\n          { label: \"Engagement Rate\", value: \"82%\", change: \"+2%\", icon: Activity },\n          { label: \"NPS Score\", value: \"+67\", change: \"+4 pts\", icon: ThumbsUp },\n          { label: \"Feature Adoption\", value: \"High\", change: \"+5 features\", icon: Star },\n        ].map((kpi, i) => (\n          \n            \n              {kpi.label}",
+    "source": "pages\\dashboards\\ProductDashboard.tsx"
+  },
+  {
+    "path": "/dashboards/strategy-dashboard",
+    "title": "AI Strategy Agent",
+    "summary": "{kpi.label}",
+    "source": "pages\\dashboards\\StrategyDashboard.tsx"
+  },
+  {
+    "path": "/founder-copilot",
+    "title": "Founder Copilot",
+    "summary": "Your AI strategic advisor",
+    "source": "pages\\FounderCopilot.tsx"
+  },
+  {
+    "path": "/intelligence-center",
+    "title": "Unified Business Intelligence",
+    "summary": "Your startup's digital twin powered by real-time data",
+    "source": "pages\\IntelligenceCenter.tsx"
+  },
+  {
+    "path": "/investor-hub",
+    "title": "Investor Intelligence Hub",
+    "summary": "Fundraising readiness and investor intelligence",
+    "source": "pages\\InvestorHub.tsx"
+  },
+  {
+    "path": "/risk-engine",
+    "title": "Early Warning System",
+    "summary": "AI-powered predictive risk detection",
+    "source": "pages\\RiskEngine.tsx"
+  },
+  {
+    "path": "/scenario-simulator",
+    "title": "Scenario Simulation Engine",
+    "summary": "Model strategic decisions with AI-powered forecasting",
+    "source": "pages\\ScenarioSimulator.tsx"
+  },
+  {
+    "path": "/settings",
+    "title": "Settings",
+    "summary": "Manage your VentureNerve preferences",
+    "source": "pages\\Settings.tsx"
+  }
+]
