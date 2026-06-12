@@ -8,7 +8,7 @@ The platform combines advanced analytics with AI-driven recommendations to give 
 
 ## 🌐 Live Demo
 
-🔗  venture-nerve-saa-s-application-aky0v64r6.vercel.app
+[🔗  venture-nerve-saa-s-application-aky0v64r6.vercel.app](https://venture-nerve-saa-s-application-three.vercel.app/)
 
 ---
 
